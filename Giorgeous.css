@@ -427,17 +427,6 @@ h2[data-test='artist-name'] {
     display: none;
 }
 
-button[data-test="close-now-playing"],
-button[data-test="request-fullscreen"] {
-    background-color: transparent;
-    border: var(--border);
-}
-
-button[data-test="close-now-playing"]:hover,
-button[data-test="request-fullscreen"]:hover {
-    background-color: transparent;
-}
-
 figure[data-test="now-playing-image"] {
     box-shadow: none;
 }
@@ -453,16 +442,6 @@ figure[data-test="now-playing-image"] {
     background-color: var(--market-core-fill-black-color);
 }
 
-[aria-label="Clear play queue"],[aria-label="Create new playlist"] {
-    scale: 0.95;
-    border: var(--border);
-    background-color: var(--market-core-fill-black-color);
-}
-
-[class*="fxContainer"] {
-    overflow: visible;
-    border-radius: 0;
-}
 /* =========================================================
    SEARCH
    ========================================================= */
