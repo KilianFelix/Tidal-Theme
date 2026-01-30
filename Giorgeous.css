@@ -35,7 +35,7 @@
 }
 
 #spotlighted-badge * {
-    fill: var(--accent) !important;
+    fill: var(--accent);
 }
 
 [class*="marketPill"] {
@@ -46,7 +46,7 @@
 
 h2 {
     font-size: 30px !important;
-    font-weight: 500 !important;
+    font-weight: 500;
     text-transform: uppercase !important;
     color: var(--accent) !important;
 }
@@ -441,6 +441,7 @@ figure[data-test="now-playing-image"] {
 
 #playQueueSidebar {
     background-color: var(--market-core-fill-black-color);
+    border-left: var(--border);
 }
 
 /* =========================================================
