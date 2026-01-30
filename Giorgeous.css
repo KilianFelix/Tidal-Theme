@@ -244,11 +244,11 @@ button[aria-label="Play queue"] {
    ========================================================= */
 
 [class*="cardContainer"] {
-    margin-left: -100vh;
-    margin-right: -100vh;
-    padding-left: 100vh;
-    padding-right: 100vh;
-    scroll-padding: 100vh;
+    margin-left: -10vh;
+    margin-right: -10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    scroll-padding: 10vh;
     overflow-y: hidden;
 }
 
@@ -276,6 +276,7 @@ button[aria-label="Play queue"] {
 [class*="_card_"] [class*="_imageContainer_"]:hover img {
     transform: scale(1.05);
 }
+
 [class^="_overlay_"] {
     background: none;
 }
