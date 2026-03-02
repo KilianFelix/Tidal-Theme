@@ -68,7 +68,7 @@ h2 {
 }
 
 div[class^="_bar_"] > div[class^="_title_"] * {
-    color: black!important;
+    color: var(--accent) !important;
 }
 
 div[class*="_bar_"] button[class*="_button_"] {
