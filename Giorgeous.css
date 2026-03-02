@@ -35,7 +35,7 @@
 }
 
 #spotlighted-badge * {
-    fill: var(--accent);
+    fill: black;
 }
 
 [class*="marketPill"] {
