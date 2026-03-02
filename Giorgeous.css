@@ -35,7 +35,7 @@
 }
 
 #spotlighted-badge * {
-    fill: black;
+    fill: var(--accent);
 }
 
 [class*="marketPill"] {
@@ -68,7 +68,7 @@ h2 {
 }
 
 div[class^="_bar_"] > div[class^="_title_"] * {
-    color: var(--accent)!important;
+    color: black!important;
 }
 
 div[class*="_bar_"] button[class*="_button_"] {
