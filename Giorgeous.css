@@ -9,7 +9,7 @@
 
 /* Change '--accent' to your favorite highlight color */
 :root {
-    --accent: rgb(126, 47, 252);
+    --accent: rgb(194, 78, 252);
     --wave-color-solid-accent-fill: rgb(193, 255, 36);
     --border: solid 1px rgba(255,255,255,0.1);
     --glass: rgba(30,30,30,0.7);
